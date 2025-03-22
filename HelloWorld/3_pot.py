@@ -5,7 +5,7 @@ from pyfirmata import Arduino, util
 
 from time import sleep
 times=5
-board = Arduino('COM3')
+board = Arduino('COM7')
 
 it = util.Iterator(board)
 it.start()
